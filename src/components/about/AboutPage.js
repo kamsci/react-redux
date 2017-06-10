@@ -7,7 +7,7 @@ class AboutPage extends React.Component {
       <div>
         <h1>About</h1>
         <p>This application uses React, Redux, and other tools and libraries.</p>
-        <Link to='/' className='btn btn-primary'>Home</Link>
+        See our available <Link to='/courses'>courses</Link> today!
       </div>
     )
   }

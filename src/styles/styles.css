@@ -5,8 +5,14 @@
   max-width: 850px;
   margin: 0 auto; }
 
-a.active {
-  color: orange;  }
+nav a.active {
+  color: orange;
+  text-decoration: none;  }
+
+nav a:hover {
+  text-decoration: none;
+  color: orange;
+}
 
 nav {
-  padding-top: 20px;  }
+  padding: 20px 0;  }
